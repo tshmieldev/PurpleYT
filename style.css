@@ -1,0 +1,173 @@
+/*
+  Purple youtube theme
+  Made by Sznio for the StyleBot addon
+  Free to use, you don't have to give me credit for anything
+  Inspired by Shades Of Purple theme for Visual Studio Code
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+div.style-scope.ytd-masthead {
+  background-color:  #1E1E3F;
+  font-family: Roboto;
+}
+#header
+{
+  background-color: #1E1E3F;
+}
+
+ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
+  background-color: #2D2B55;
+  font-family: Roboto;
+}
+
+#guide-inner-content {
+  background-color: #1E1E3F;
+}
+
+a.yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer {
+  background-color: #1E1E3F;
+}
+
+input.ytd-searchbox {
+  background-color: #2D2B55;
+}
+
+div.style-scope.ytd-searchbox {
+  background-color: #2D2B55;
+}
+
+ytd-mini-guide-renderer.style-scope.ytd-app {
+  background-color: #1E1E3F;
+}
+
+ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton {
+  background-color: #2D2B55;
+}
+
+underline style-scope paper-input-container {
+  background-color: #4D21FC;
+}
+
+unfocused-line style-scope paper-input-container {
+  background-color: #4D21FC;
+}
+
+div.unfocused-line.style-scope.paper-input-container {
+  background-color: #1E1E3F;
+}
+
+#comments {
+  background-color: #1E1E3F;
+  border-style: double;
+  border-color: #A599E9;
+  border-radius:5px;
+  padding:5px;
+}
+
+input-wrapper style-scope paper-input-container~* {
+  max-height: 0;
+  color:red;
+}
+#creation-box{
+  color:#A599E9;
+}
+
+
+#button{
+  background-color:rgba(30, 30, 63, 0);
+}
+#submit-button{
+  background-color: #A599E9;
+}
+ytd-multi-page-menu-renderer{
+  background-color: #1E1E3F
+}
+
+ytd-simple-menu-header-renderer.style-scope.ytd-multi-page-menu-renderer {
+  background-color:#2D2B55;
+}
+
+ytd-browse.style-scope.ytd-page-manager {
+  background-color:#2D2B55;
+}
+
+
+div.style-scope.ytd-channel-list-sub-menu-renderer img{
+  width:0;
+  background-size: 0, 0;
+}
+div.style-scope.ytd-channel-list-sub-menu-renderer #title {
+  font-size:32px;
+  padding:10px;
+  color: #A5FF90;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #A5FF90;
+  font-weight: bold;
+}
+div.style-scope.ytd-channel-list-sub-menu-renderer #title:hover {
+ 
+  color: #FB94FF;
+  
+  border-bottom: 1px solid #FB94FF;
+ 
+}
+
+yt-img-shadow.style-scope.ytd-channel-list-sub-menu-avatar-renderer.no-transition {
+  width:0;
+  height:0;
+}
+
+html body ytd-app {
+  background-color:#2D2B55;
+}
+
+div.style-scope.ytd-two-column-browse-results-renderer {
+  background-color:#1E1E3F;
+}
+#page-manager > ytd-browse:nth-child(5){
+  background-color:#1E1E3F;
+}
+#header > ytd-text-header-renderer{
+  font-weight: bold;
+  font-size:20px;
+}
+
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse {
+  background-color:#2D2B55;
+}
+
+button.style-scope.ytd-searchbox {
+  background-color:#2D2B55;
+}
+
+ytd-alert-with-button-renderer.style-scope.ytd-browse {
+  background-color:#2D2B55;
+}
+#channel-header{
+  background-color:#1E1E3F;
+}
+#tabs-inner-container{
+  background-color:#2D2B55;
+}
+#contents{
+  background-color:#2D2B55;
+}
+#header-container{
+  background-color:#2D2B55;
+}
+
+ytd-browse-secondary-contents-renderer.style-scope.ytd-two-column-browse-results-renderer {
+  background-color:#2D2B55;
+}
+
+div.style-scope.ytd-comment-renderer {
+  background-color:#2D2B55;
+}
+#header{
+  background-color:#2D2B55;
+}
+#comments{
+  background-color:#2D2B55
+}
+
