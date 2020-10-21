@@ -122,9 +122,6 @@ html body ytd-app {
   background-color:#2D2B55;
 }
 
-div.style-scope.ytd-two-column-browse-results-renderer {
-  background-color:#1E1E3F;
-}
 #page-manager > ytd-browse:nth-child(5){
   background-color:#1E1E3F;
 }
@@ -170,4 +167,38 @@ div.style-scope.ytd-comment-renderer {
 #comments{
   background-color:#2D2B55
 }
+#page-manager > ytd-browse:nth-child(5){
+  background-color: #2D2B55;
+}
 
+div.style-scope.ytd-two-column-browse-results-renderer {
+  background-color: #2D2B55;
+}
+
+ytd-active-account-header-renderer.style-scope.ytd-multi-page-menu-renderer {
+  background-color: #1E1E3F;
+}
+
+div.container.style-scope.ytd-account-settings {
+  background-color: #1E1E3F;
+}
+
+yt-icon.style-scope.ytd-badge-supported-renderer {
+  color: #A5FF90;
+}
+
+div.style-scope.ytd-guide-entry-renderer {
+  background-color:#FB94FF;
+}
+
+yt-icon.guide-entry-badge.style-scope.ytd-guide-entry-renderer {
+  color: #FF9D00;
+}
+
+span.style-scope.ytd-badge-supported-renderer {
+  color:#FF9D00;
+  
+}
+#meta > ytd-badge-supported-renderer > div{
+  border: 1px solid #FF9D00;
+}
