@@ -27,7 +27,11 @@ div *{
   text-align: center;
   line-height: 33vh;
 } */
-
+:root{
+  --yt-spec-general-background-a: #1E1E3F;
+  --ytd-chip-cloud-background: #1E1E3F;
+ 
+}
 /*POPUP*/
 *[class="ytp-popup ytp-contextmenu"]{
   background-color: rgba(30, 30, 63,0.90);
@@ -45,6 +49,7 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
   font-family: Roboto;
 }
 
+
 #guide-inner-content {
   background-color: #1E1E3F;
 }
@@ -52,7 +57,10 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
 a.yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer {
   background-color: #1E1E3F;
 }
-
+#voice-search-button{
+  background-color: #1E1E3F;
+  border: 1px solid #2D2B55
+}
 input.ytd-searchbox {
   background-color: #2D2B55;
   color: #A5FF90;
@@ -362,4 +370,7 @@ iron-selector.style-scope.ytd-feed-filter-chip-bar-renderer * {
   background-color: #1E1E3F;
  
    color: white;
+}
+#right-arrow-button{
+  background-color: #1E1E3F;
 }
